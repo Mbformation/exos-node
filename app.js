@@ -53,7 +53,6 @@ app.use('/api/stuff', stuffRoutes);
 // Ici on spécifie l'url de base de nos routes pour les routes exportées dans userRoutes
 app.use('/api/auth', userRoutes);
 
-
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 /*
